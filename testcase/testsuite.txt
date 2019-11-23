@@ -1,0 +1,6 @@
+5
+20 ./testcase/0_testcase.txt
+3 ./testcase/1_testcase.txt
+10 ./testcase/2_testcase.txt
+22 ./testcase/3_testcase.txt
+3 ./testcase/4_testcase.txt
