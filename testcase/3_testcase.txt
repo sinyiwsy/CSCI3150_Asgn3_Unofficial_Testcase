@@ -1,0 +1,26 @@
+KERNEL_SPACE_SIZE 20
+VIRTUAL_SPACE_SIZE 8
+PAGE_SIZE 4
+MAX_PROCESS_NUM 5
+create 4 0
+create 4 1
+create 4 2
+create 4 3
+create 4 4
+write 0 2 2 512 cd 0
+write 1 2 2 512 cd 0
+write 2 2 2 512 cd 0
+write 3 2 2 512 cd 0
+write 4 2 2 512 cd 0
+read 0 2 2 512 cd 0
+read 1 2 2 512 cd 0
+read 2 2 2 512 cd 0
+read 3 2 2 512 cd 0
+read 4 2 2 512 cd 0
+exit 1 0
+exit 4 0
+create 8 1
+check free space: (addr:4, size:4) -> (addr:16, size:4)#
+write 1 0 6 512 ABCDEF 0
+check free space: (addr:20, size:0)#
+read 1 0 8 512 ABCDEF 0
