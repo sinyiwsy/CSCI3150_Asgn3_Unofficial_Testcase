@@ -6,6 +6,7 @@ Welcome to modify the testcases in it.
 If you have any problem, you can open an issue.
 
 ## Paging
+Just put your kernel.c in it.
 
 testsuite.txt file:
 ```
