@@ -24,11 +24,11 @@ check <str>#
 ```
 
 Testcase:  
-0. Original Demo testcase
-1. Testing Create Failure (MAX process)
-2. Testing Create Failure (Not enough Kernel space)
-3. Testing memory mapping (Not continuous page mapping)
-4. Testing Read/Write Failure (Out of bound)
+0.Original Demo testcase  
+1.Testing Create Failure (MAX process)  
+2.Testing Create Failure (Not enough Kernel space)  
+3.Testing memory mapping (Not continuous page mapping)  
+4.Testing Read/Write Failure (Out of bound)  
 
 ## Paging with Swap
 Upload it Later
