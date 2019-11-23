@@ -7,6 +7,13 @@ If you have any problem, you can open an issue.
 
 ## Paging
 Just put your kernel.c in it.
+```
+make
+./runtest <test case no.>
+    //'0'~'9' to select a test case
+    //'10' to run all the test cases
+```
+
 
 testsuite.txt file:
 ```
