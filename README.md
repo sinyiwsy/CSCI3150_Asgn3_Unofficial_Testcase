@@ -1,4 +1,8 @@
 # CSCI3150 Asgn3 Unofficial Testcase
+This is an unofficial testcase program for CSCI3150 Asgn3. Inspired by Eric Lo's homework grading way. 
+This program might not include all requirements. 
+If you get a full mark in this program, it does not mean that you can get full mark in official grading way.
+Welcome to modify the testcases in it.  
 
 ## Paging
 
@@ -24,11 +28,13 @@ check <str>#
 ```
 
 Testcase:  
-0.Original Demo testcase  
-1.Testing Create Failure (MAX process)  
-2.Testing Create Failure (Not enough Kernel space)  
-3.Testing memory mapping (Not continuous page mapping)  
-4.Testing Read/Write Failure (Out of bound)  
+```
+0. Original Demo testcase
+1. Testing Create Failure (MAX process)  
+2. Testing Create Failure (Not enough Kernel space)  
+3. Testing memory mapping (Not continuous page mapping)  
+4. Testing Read/Write Failure (Out of bound)  
+```
 
 ## Paging with Swap
 Upload it Later
