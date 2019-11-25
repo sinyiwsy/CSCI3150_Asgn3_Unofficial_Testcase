@@ -1,0 +1,1 @@
+gcc runtest.c kernel.c -o runtest.exe -Wall -g3
