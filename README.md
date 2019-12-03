@@ -39,7 +39,15 @@ check <str>#
 
 Testcase:  
 ```
-
+0. Original Demo testcase
+1. Testing Create & Exit Failure (MAX process, no such process exist)
+2. Testing Read/Write Failure (Out of bound)
+3. Testing Create with swap & Read/Write (Not enough Kernel space)
+4. Testing Read/Write with swap ()
+5. Testing Read/Write with Exit ()
+6. Testing Read/Write with 2 swap ()
+7. Testing Read/Write with Exit (manual check)
+8. Testing Dirty bit ()
 ```
 
 
