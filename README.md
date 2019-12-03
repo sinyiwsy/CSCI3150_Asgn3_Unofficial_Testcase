@@ -5,7 +5,7 @@ If you get a full mark in this program, it does not mean that you can get full m
 Welcome to modify the testcases in it.  
 If you have any problem, you can open an issue.
 
-## Paging
+## Paging with Swap
 Just put your kernel.c in it.
 ```
 make
@@ -39,12 +39,7 @@ check <str>#
 
 Testcase:  
 ```
-0. Original Demo testcase
-1. Testing Create Failure (MAX process)  
-2. Testing Create Failure (Not enough Kernel space)  
-3. Testing memory mapping (Not continuous page mapping)  
-4. Testing Read/Write Failure (Out of bound)  
+
 ```
 
-## Paging with Swap
-Upload it Later
+
