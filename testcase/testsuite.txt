@@ -1,6 +1,10 @@
-5
+9
 20 ./testcase/0_testcase.txt
-3 ./testcase/1_testcase.txt
-10 ./testcase/2_testcase.txt
-22 ./testcase/3_testcase.txt
-3 ./testcase/4_testcase.txt
+6 ./testcase/1_testcase.txt
+6 ./testcase/2_testcase.txt
+12 ./testcase/3_testcase.txt
+16 ./testcase/4_testcase.txt
+18 ./testcase/5_testcase.txt
+17 ./testcase/6_testcase.txt
+19 ./testcase/7_testcase.txt
+11 ./testcase/8_testcase.txt

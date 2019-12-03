@@ -1,0 +1,22 @@
+KERNEL_SPACE_SIZE 8
+VIRTUAL_SPACE_SIZE 4
+PAGE_SIZE 2
+MAX_PROCESS_NUM 3
+create 4 0
+create 4 1
+create 4 2
+write 2 0 4 512 ijkl 0
+write 1 0 4 512 efgh 0
+write 0 0 4 512 abcd 0
+testLru (pid:1, page:0) -> (pid:1, page:1) -> (pid:0, page:0) -> (pid:0, page:1)#
+exit 1 0 
+testLru (pid:0, page:0) -> (pid:0, page:1)#
+read 2 0 4 512 ijkl 0
+testLru (pid:0, page:0) -> (pid:0, page:1) -> (pid:2, page:0) -> (pid:2, page:1)#
+exit 2 0
+testLru (pid:0, page:0) -> (pid:0, page:1)#
+create 4 1
+write 1 0 4 512 ABCD 0
+testLru (pid:0, page:0) -> (pid:0, page:1) -> (pid:1, page:0) -> (pid:1, page:1)#
+read 1 0 4 512 ABCD 0
+exit 0 0

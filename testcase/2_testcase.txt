@@ -1,14 +1,10 @@
 KERNEL_SPACE_SIZE 20
-VIRTUAL_SPACE_SIZE 16
+VIRTUAL_SPACE_SIZE 8
 PAGE_SIZE 4
 MAX_PROCESS_NUM 2
-create 8 0
-create 8 1
-create 4 -1
-exit 1 0
-create 16 -1
-create 12 1
+create 4 0
+write 0 3 2 512 cd -1
+write 0 2 2 512 cd 0
+read 0 3 2 512 nil -1
+read 0 2 2 512 cd 0
 exit 0 0
-create 8 0
-exit 0 0
-exit 1 0
