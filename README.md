@@ -45,6 +45,3 @@ Testcase:
 3. Testing memory mapping (Not continuous page mapping)  
 4. Testing Read/Write Failure (Out of bound)  
 ```
-
-## Paging with Swap
-Upload it Later
