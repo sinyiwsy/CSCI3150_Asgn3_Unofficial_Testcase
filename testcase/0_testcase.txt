@@ -1,4 +1,4 @@
-KERNEL_SPACE_SIZE 8192
+KERNEL_SPACE_SIZE 256
 VIRTUAL_SPACE_SIZE 512
 PAGE_SIZE 32
 MAX_PROCESS_NUM 8
@@ -6,19 +6,19 @@ create 513 -1
 create 512 0
 create 256 1
 read 1 0 234 512 nil 0
-check free space: (addr:256, size:7936)#
+check free space: (addr:256, size:0)#
 create 128 2
 write 2 42 1 512 a 0
 read 2 42 1 512 a 0
-check free space: (addr:288, size:7904)#
+check free space: (addr:256, size:0)#
 create 128 3
 write 3 0 128 512 nil 0
-check free space: (addr:416, size:7776)#
+check free space: (addr:256, size:0)#
 exit 2 0
-check free space: (addr:256, size:32) -> (addr:416, size:7776)#
+check free space: (addr:0, size:32) -> (addr:256, size:0)#
 exit 3 0
-check free space: (addr:256, size:7936)#
+check free space: (addr:0, size:160) -> (addr:256, size:0)#
 exit 1 0
-check free space: (addr:0, size:8192)#
+check free space: (addr:0, size:256)#
 exit 0 0
-check free space: (addr:0, size:8192)#
+check free space: (addr:0, size:256)#

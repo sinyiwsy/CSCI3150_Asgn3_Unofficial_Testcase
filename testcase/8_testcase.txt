@@ -1,0 +1,15 @@
+KERNEL_SPACE_SIZE 4
+VIRTUAL_SPACE_SIZE 4
+PAGE_SIZE 2
+MAX_PROCESS_NUM 2
+create 4 0
+create 4 1
+write 0 0 4 512 abcd 0
+read 0 0 4 512 abcd 0
+write 1 0 4 512 zzzz 0
+write 0 0 4 512 ABCD 0
+read 0 0 4 512 ABCD 0
+write 1 0 4 512 zzzz 0
+read 0 0 4 512 ABCD 0
+exit 0 0
+exit 1 0
