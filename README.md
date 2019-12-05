@@ -7,7 +7,7 @@ If you have any problem, you can open an issue.
 
 ## Paging and Paging with Swap
 They are in different branch. Please check out.  
-1. Paging updated on Nov 25, 2019
+1. Paging updated on Dec 5, 2019
 2. Paging with Swap updated on Dec 3, 2019
 
 ## Usage
