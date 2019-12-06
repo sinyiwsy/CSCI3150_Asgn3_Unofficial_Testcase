@@ -7,8 +7,8 @@ If you have any problem, you can open an issue.
 
 ## Paging and Paging with Swap
 They are in different branch. Please check out.  
-1. Paging updated on Dec 5, 2019
-2. Paging with Swap haven't finished
+1. Paging updated on Dec 5, 2019 (Please use paging(original).)
+2. Paging with Swap updated on Dec 5, 2019
 
 ## Usage
 Just put your kernel.c inside.
