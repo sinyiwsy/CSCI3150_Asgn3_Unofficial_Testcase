@@ -23,4 +23,4 @@ create 8 1
 check free space: (addr:4, size:4) -> (addr:16, size:4)#
 write 1 0 6 512 ABCDEF 0
 check free space: (addr:20, size:0)#
-read 1 0 8 512 ABCDEF 0
+read 1 0 6 512 ABCDEF 0
