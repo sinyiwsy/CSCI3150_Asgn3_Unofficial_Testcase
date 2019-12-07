@@ -1,4 +1,4 @@
-# CSCI3150 Asgn3 Unofficial Testcase (Don't use this. Please go to paging(original) version)
+# CSCI3150 Asgn3 Unofficial Testcase (omp Version)
 This is an unofficial testcase program for CSCI3150 Asgn3. Inspired by Eric Lo's homework grading way.
 This program might not include all requirements.
 If you get a full mark in this program, it does not mean that you can get full mark in official grading way.
