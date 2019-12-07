@@ -6,7 +6,7 @@ Welcome to modify the testcases in it.
 If you have any problem, you can open an issue.
 
 ## Paging and Paging with Swap
-They are in different branch. Please check out and read the README.md.  
+They are in **different branch**. Please check out and **read the README.md.**  
 1. Paging updated on Dec 5, 2019
 2. Paging with Swap updated on Dec 5, 2019
 
