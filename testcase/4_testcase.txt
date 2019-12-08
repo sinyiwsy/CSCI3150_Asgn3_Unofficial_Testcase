@@ -4,4 +4,7 @@ PAGE_SIZE 4
 MAX_PROCESS_NUM 3
 create 4 0
 write 0 0 5 512 abc -1
+write 3 0 5 512 abc -1
+write -1 0 5 512 abc -1
+write 1 0 5 512 abc -1
 exit 0 0
